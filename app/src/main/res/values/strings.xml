@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="select_voice">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Robot</item> 
+    </string-array>
+    <string-array name="speechrate">
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-7051736417516555/5283302199</string>
+    <string name="title_activity_Set">Set</string>
+    <string name="title_activity_Wallet">Google wallet</string>
+   <string name="title_activity_Help">Help</string>
+    <string name="dialog_title">Rate %s</string>
+    <string name="rate_message">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate">Rate Now</string>
+    <string name="later">Later</string>
+    <string name="no_thanks">No thanks</string>
+
+     <string name="options">options</string>
+     <string name="search">Search&#8230;</string>
+     <string name="title_activity_ocr">Scan</string>
+      <string name="title_activity_graph">Graph</string>
+    <string name="title_activity_deletedata">Delete Data</string>
+    <string name="title_activity_updatedata">Update Data</string>
+    <string name="title_activity_disp">Display Database</string>
+    <string name="title_activity_insertdata">Add Expenses</string>
+    <string name="title_activity_csvfiles">Csv Files</string>
+    <string name="exp2db">exp2db</string>
+    <string name="share">share</string>
+    <string name="action_search">Search</string>
+    <string name="searchform">Search</string>
+    <string name="database">Database</string>
+    <string name="date">DATE</string>
+    <string name="product">PRODUCT :</string>
+    <string name="cost">COST :</string>
+    <string name="place">PLACE :</string>
+    <string name="date1">Click here to set DATE</string>
+    <string name="product1">Enter Product Name</string>
+    <string name="cost1">Enter Cost</string>
+    <string name="place1">Enter Place Name</string>
+    <string name="voice">Voice :</string>
+    <string name="name">Name :</string>
+    <string name="select">Select</string>
+    <string name="app_name">Speech</string>
+    <string name="settings">Settings</string>
+    <string name="updatedata">update data</string>
+    <string name="insertdata">insert data</string>
+    <string name="insert">insert</string>
+    <string name="update">update</string>
+    <string name="help">Help</string>
+    <string name="deletedata">delete data</string>
+    <string name="encrypt">encrypt</string>
+    <string name="decrypt">decrypt</string>
+    <string name="txt2sp">txt2sp</string>
+    <string name="tdcost">Todays Expenses</string>
+    <string name="totcost">Total Expenses</string>
+    <string name="action_settings">Settings</string>
+    <string name="rec">Record Voice</string>
+    <string name="s2t">Record Expenses</string>
+    <string name="t2s">Text to Speech</string>
+    <string name="bs">Barcode Scanner</string>
+    <string name="tpn">Take Picture Notes</string>
+    <string name="recordingpoint">Record Voice</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="rename">rename</string>
+    <string name="play">Play</string>
+    <string name="stop_playing">Stop Playing</string>
+    <string name="title_activity_Record">Record</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_Sp2txt">Sp2txt</string>
+    <string name="speak">Speak Now</string>
+    <string name="talk">Talk TO ME</string>
+    <string name="text1">Text to Speech</string>
+   <string name="write">Write Text</string>
+   <string name="title_activity_txt2sp">Txt2sp</string>
+   <string name="title_activity_Capture1">Capture1</string>
+   <string name="title_activity_Record1">Record1</string>
+   <string name="scan">Scan</string>
+   <string name="title_activity_Bs">Barcode Scanner</string>
+   <string name="title_activity_Sp2txt1">Sp2txt1</string>
+   <string name="capture">Capture</string>
+   <string name="delete">delete</string>
+   <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item> 
+        <item>April</item>
+        <item>May</item>
+        <item>June</item> 
+        <item>July</item>
+        <item>August</item>
+        <item>September</item> 
+        <item>October</item>
+        <item>November</item>
+        <item>December</item> 
+    </string-array>
+</resources>

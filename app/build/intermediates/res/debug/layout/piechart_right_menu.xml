@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/expbyplace"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="By Place" />
+    <Button
+        android:id="@+id/expbymonth"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="By Monthly" />
+
+
+
+</LinearLayout>
+<!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/piechart_right_menu.xml -->

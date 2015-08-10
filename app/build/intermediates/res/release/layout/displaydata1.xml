@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <TextView android:id="@+id/item1"
+            android:text="DATE"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:width="100dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item2"
+            android:text="PRODUCT"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:width="120dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item3"
+            android:text="COST"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:width="50dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item4"
+            android:text="PLACE"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:width="100dip"
+            android:height="30dip"
+        />
+</LinearLayout><!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/displaydata1.xml -->

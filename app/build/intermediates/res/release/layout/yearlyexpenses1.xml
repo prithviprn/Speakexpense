@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+     <TextView android:id="@+id/date"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:text="DATE"
+            android:width="120dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/cost"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="60dip"
+            android:text="COST"
+            android:width="100dip"
+            android:height="30dip"
+        />
+</LinearLayout><!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/yearlyexpenses1.xml -->

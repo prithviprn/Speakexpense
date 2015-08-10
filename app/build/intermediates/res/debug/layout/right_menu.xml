@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/viewdb"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_view_as_list"
+        android:text="View Expenses" />
+
+ <Button
+     android:id="@+id/searchdb"
+     android:layout_width="270dp"
+     android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/ic_action_search"
+     android:text="Search Expenses" />
+    <Button
+        android:id="@+id/csvfiles"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/view_csv1"
+        android:text="View CSV Files" />
+   
+         <Button
+        android:id="@+id/graph"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/barchart"
+        android:text="Bar Chart" />
+
+    <Button
+        android:id="@+id/graph2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/linechart"
+        android:text="Line Chart" />
+    <Button
+        android:id="@+id/graph3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/piechart"
+        android:text="Pie Chart" />
+ 
+</LinearLayout>
+<!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/right_menu.xml -->

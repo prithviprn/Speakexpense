@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.speakexpense.Sp2txt" >
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"/>
+  
+
+</menu>
+<!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/menu/displaydata1.xml -->

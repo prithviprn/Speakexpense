@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+ 
+    <!-- Header -->
+    <LinearLayout android:id="@+id/header"
+        android:background="#ff347c12"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+        <TextView android:id="@+id/item1"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="DATE"
+            android:width="80dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item2"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="PRODUCT"
+            android:width="120dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item3"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="COST"
+            android:width="50dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/item4"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="PLACE"
+            android:width="100dip"
+            android:height="30dip"
+        />
+    </LinearLayout>
+ 
+    <!-- List Divider -->
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+ 
+    <!-- ListView (grid_items) -->
+    <LinearLayout android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/expcsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/export_excel"
+        android:text="Export to csv" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/expcsv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/header" >
+
+    </ListView>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/expcsv"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/expcsv"
+        android:entries="@array/months" />
+
+</RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/monthlyexpenses.xml -->

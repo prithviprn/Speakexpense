@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg">
+ 
+    <!-- Header -->
+    <LinearLayout android:id="@+id/header"
+        android:background="#ff347c12"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+        <TextView android:id="@+id/date"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:text="DATE"
+            android:width="120dip"
+            android:height="30dip"
+        />
+        <TextView android:id="@+id/cost"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="60dip"
+            android:text="COST"
+            android:width="100dip"
+            android:height="30dip"
+        />
+      
+    </LinearLayout>
+ 
+    <!-- List Divider -->
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+ 
+    <!-- ListView (grid_items) -->
+    <LinearLayout android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp">
+        <ListView android:id="@+id/listview1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/expcsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/export_excel"
+        android:text="Export to csv" />
+
+</LinearLayout><!-- From: file:/Users/sujanreddy/StudioProjects/Speakexpense/app/src/main/res/layout/yearlyexpenses.xml -->
